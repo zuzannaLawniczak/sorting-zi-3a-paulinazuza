@@ -6,11 +6,17 @@
 unsigned int ns[] = { 10, /* TODO: fill in "n" i.e. instance sizes */ };
 
 void fill_increasing(int *t, unsigned int n) {
-    // TODO: implement
+    for (unsigned int i = 0; i < n; i++)
+    {
+        t[i] = i;
+    }
 }
 
 void fill_decreasing(int *t, unsigned int n) {
-    // TODO: implement
+    for (unsigned int i = 0; i < n; i++)
+    {
+        t[i] = n - i - 1;
+    }
 }
 
 void fill_vshape(int *t, unsigned int n) {
